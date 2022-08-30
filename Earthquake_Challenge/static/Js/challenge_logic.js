@@ -140,11 +140,11 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geoj
     if (magnitude > 6) {
       return "#ea2c2c";
     }
-    if (magnitude > 5) {
-      return "#ea822c";
+    if (magnitude >= 5) {
+      return "#ea452c";
     }
     if (magnitude < 5) {
-      return "#ee9c00";
+      return "#ea822c";
     }
   }
   
@@ -153,7 +153,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geoj
     if (magnitude === 0) {
       return 1;
     }
-    return magnitude * 5;
+    return magnitude * 4;
   }
   
   // 7. Creating a GeoJSON layer with the retrieved data that adds a circle to the map 
