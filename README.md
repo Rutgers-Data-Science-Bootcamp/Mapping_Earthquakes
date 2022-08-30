@@ -19,7 +19,8 @@ Now that you have an overview of the project plan, let see the geographical maps
 <img width="1412" alt="Screen Shot 2022-08-30 at 1 09 41 PM" src="https://user-images.githubusercontent.com/65901034/187498516-d4e028e5-0866-4c41-8237-cb7cf5f765b8.png">
 
 #### Resources 
-###### data
-geoJSON data for earthquakes in the last 7 days
+###### data sources
+mapbox map
+USGS geoJSON data for earthquakes in the last 7 days
 ###### tools
-JavaScript, HTML, CSS
+JavaScript, HTML, CSS, Leaflet
