@@ -23,4 +23,4 @@ Now that you have an overview of the project plan, let see the geographical maps
    - mapbox map
    - USGS geoJSON data for earthquakes in the last 7 days
 ###### tools
-JavaScript, HTML, CSS, Leaflet
+Visual studio code, JavaScript, HTML, CSS, Leaflet, D3.js, 
