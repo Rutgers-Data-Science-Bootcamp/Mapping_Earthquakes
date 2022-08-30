@@ -20,7 +20,7 @@ Now that you have an overview of the project plan, let see the geographical maps
 
 #### Resources 
 ###### data sources
-mapbox map
-USGS geoJSON data for earthquakes in the last 7 days
+   - mapbox map
+   - USGS geoJSON data for earthquakes in the last 7 days
 ###### tools
 JavaScript, HTML, CSS, Leaflet
